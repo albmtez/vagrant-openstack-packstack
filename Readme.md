@@ -1,8 +1,6 @@
 # Openstack Lab
 Vagrant generated Openstack. A single VM installation on Centos 7, using Packstack ([Packstack install guide](https://www.rdoproject.org/install/packstack/)).
 
-Provider: Virtualbox
-
 Default machine configuration:
 - Centos 7 64 bits
 - 4GB RAM
