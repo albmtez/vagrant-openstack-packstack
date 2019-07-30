@@ -10,7 +10,7 @@
 ################################################################################
 
 # VM memory.
-vm_memory = 4096
+vm_memory = 6144
 # VM number of cpus.
 vm_cpus = 2
 
@@ -33,9 +33,9 @@ systemctl stop NetworkManager
 systemctl enable network
 systemctl start network
 
-yum install -y centos-release-openstack-queens
 yum update -y
-
+yum install -y centos-release-openstack-stein
+yum update -y
 yum install -y openstack-packstack
 
 packstack --allinone
